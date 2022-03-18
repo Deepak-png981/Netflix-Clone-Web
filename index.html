@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix Clone</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <!-- Navabar -->
+    <div class="nav" id="nav">
+      <img src="NetflixLog.png" alt="" class="logo" />
+      <img src="NavLo.png" class="sideIcon" alt="" />
+    </div>
+
+    <!-- banner -->
+    <header id="banner">
+      <div class="banner-content">
+        <h1 id="banner-title"></h1>
+        <div class="banner-buttons">
+          <button class="banner-button">Play</button>
+          <button class="banner-button">My List</button>
+        </div>
+        <h1 id="banner-description"></h1>
+      </div>
+      <div class="banner-fade"></div>
+    </header>
+
+    <!-- Row -->
+    <div class="row" id="row0">
+      <h2>Netflix Originals</h2>
+      <div class="image-container" id="image0"></div>
+    </div>
+    <div class="row" id="row1">
+      <h2>Trending</h2>
+      <div class="image-container" id="image1"></div>
+    </div>
+    <div class="row" id="row2">
+      <h2>Top Rated</h2>
+      <div class="image-container" id="image2"></div>
+    </div>
+    <div class="row" id="row3">
+      <h2>Action Movies</h2>
+      <div class="image-container" id="image3"></div>
+    </div>
+    <div class="row" id="row4">
+      <h2>Comedy Movies</h2>
+      <div class="image-container" id="image4"></div>
+    </div>
+    <div class="row" id="row5">
+      <h2>Horror Movies</h2>
+      <div class="image-container" id="image5"></div>
+    </div>
+    <div class="row" id="row6">
+      <h2>Romance Movies</h2>
+      <div class="image-container" id="image6"></div>
+    </div>
+    <div class="row" id="row7">
+      <h2>Documanteries</h2>
+      <div class="image-container" id="image7"></div>
+    </div>
+
+    <!-- About -->
+    <div id="container" class="container">
+      <div id="moviePoster">
+        <img id="moviePosterImg" src="" alt="" />
+      </div>
+      <div class="details">
+        <h2 id="title"></h2>
+        <div class="small-details">
+          <p id="date"></p>
+          <p id="language"></p>
+          <p id="rating"></p>
+        </div>
+        <h1 id="description"></h1>
+        <button id="play">Play</button>
+      </div>
+      <button id="close">x</button>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
